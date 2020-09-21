@@ -1,0 +1,244 @@
+	body {
+		background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 41%, rgba(33,180,226,1) 78%, rgba(183,222,237,1) 100%);
+		color:#FF1493;
+}
+	header {
+		width:100%;
+		margin:auto;
+	}
+
+	h2,h3 {
+		background:#00FA9A;
+		color:#9400D3;
+		width:font-content;
+		display:inline-block;
+}
+
+	h2 {
+		font-size:40px;
+		padding: 20px;
+}	
+
+	h3 {
+		font-size:50px;
+		padding: 10px;
+
+}
+	h4 { font-size: 39px;
+
+	}	
+
+
+	p {
+		margin-right: 50%;
+		font-size:25px;
+		font-family:"Arial";
+		line-height: 40px;
+}
+
+	a { 
+		display:inline-block;
+		background:#00FF7F;
+		font-size:30px;
+		color:#FFA500;
+		padding:20px 10px;
+		border:5px solid #000000;
+		margin:30px 80px;
+		width:font-content;
+		height:font-content;
+		text-decoration:none;
+
+}
+
+	a:link {
+		color:#FF0000;
+}
+
+	a:hover {
+		background:#FFF;
+		text-decoration:underline;
+		box-shadow: 0px 2px 20px #000;	
+}
+
+	.perro {
+		margin:50px 400px;
+		font-size:50px; 
+		background:#F0E68C;
+		color:green;
+		box-shadow: 0px 10px 0px #FF1493;
+}
+
+	.perro:hover {
+
+		text-decoration:none;
+		background:#F0E68C;
+		box-shadow:0px 5px 0px #FF1493;
+}
+
+	.perro:active {
+		box-shadow:none;
+}
+
+	.asd {
+
+		display:block;
+		margin:90px 100px;
+		padding:50 px;
+		width:30%;
+		height:auto;
+		box-shadow:50px 6px 0px #FFB0FC;
+		border-radius:50%;
+		float:right;
+		border:7px solid #000;
+}
+
+	.lolmati {
+		margin-left:230px;
+		background:#96FF70;
+}
+
+	.Menu {
+		list-style:none;
+		width:100%;
+		height:font-content;
+		background:none;
+		margin:15px 0px;
+		padding:0px;
+}
+	
+	.Menu li {
+		display:inline-block;
+}
+	
+	.Menu li a {
+		width:font-content;
+		height:font-content;
+		font-size:30px;
+		display:inline-block;
+		background:none;
+		padding:35px 40px;
+		border:none;
+		background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 64%, rgba(31,59,8,1) 100%);;
+		margin:none;
+}
+
+	.Menu li a:hover {
+		background:#FFAC82;
+		color:#000;
+		text-decoration:underline;
+		box-shadow:none;
+} 
+
+	table {
+		cursor:pointer;
+		text-align:center;
+		background:#B3FF30;
+		box-shadow:10px 15px #000; 
+		border:3px solid #000;
+		border-collapse:collapse;
+		width:600px;
+		margin-bottom:100px;
+}
+
+	table td {
+		font-size:40px;
+		border: 3px solid #000;
+		padding:20px;
+}
+
+	table tr:hover {
+		background:#ccc;
+}
+
+	table td:hover {
+		background:#fff;
+}
+
+	form {
+		background:#F0DDB2;
+		border:1px color #000;
+		width:25%;
+		margin:20px;
+		padding:20px 20px;
+}
+	label {
+		margin-bottom:10px;
+		font-size:15px;
+		display:block;
+		width:100%;
+}
+	input, textarea {
+		margin-bottom:10px;
+		padding:5px;
+		width:100%;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+}
+
+	textarea {
+		resize:vertical;
+		max-height:100px;
+		min-height:50px;
+}
+	input:focus {
+		border:1px solid red;
+	}
+
+
+
+
+	input[type="submit"] {
+		margin-bottom:0px;
+		background:#3F7BBF;
+		color:#fff;
+		border:none;
+}
+
+	input[type="submit"]:hover {
+		background:#4F9AF0;
+		cursor:pointer;
+}
+
+	.gato {
+		font-size:25px;
+		height:font-content;
+		width:100%;
+		background:#AB91FF;
+		color:#000;
+		text-align:center;
+	}
+
+	.thumb {
+		margin:0px 0px;
+		padding:10px;
+		width:100px;
+		height:auto;
+		box-shadow:none;
+		border:none;
+		transition:1000ms all ease; 
+
+
+	}
+
+	.botoncitoFachero {
+		margin-bottom:0px;
+		background:#fff;
+		border:none;
+
+	}
+
+	.formularioFachero{
+		border:none;
+		width:25%;
+		margin:0px;
+		padding:0px 0px;
+	}
+
+	.grande{
+		width: 500px;
+	}
+
+	.botonql2{
+		margin-left:100px;
+			}
